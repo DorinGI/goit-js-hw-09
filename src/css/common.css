@@ -16,3 +16,31 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  background-color: white;
+  padding: 2vw;
+  border-radius: 1vw;
+  box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5vw;
+}
+
+.value {
+  font-size: 3vw;
+  font-weight: bold;
+  margin-bottom: 0.5vh;
+}
+
+.label {
+  font-size: 1.2vw;
+  color: #777;
+}
